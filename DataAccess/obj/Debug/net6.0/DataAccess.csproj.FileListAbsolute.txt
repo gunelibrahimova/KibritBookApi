@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.pdb
