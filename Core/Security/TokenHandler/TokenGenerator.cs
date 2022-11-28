@@ -20,7 +20,7 @@ namespace Core.Security.TokenHandler
             _jWTConfig = jWTConfig;
         }
 
-        public string Token(K205User user, string role)
+        public string Token(User user, string role)
         {
             var jwtTokenhandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm");

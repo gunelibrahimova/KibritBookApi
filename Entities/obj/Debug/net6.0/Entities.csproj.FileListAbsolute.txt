@@ -10,3 +10,6 @@ C:\Users\HP\Desktop\Tasks\KibritBook\Entities\obj\Debug\net6.0\Entities.csproj.C
 C:\Users\HP\Desktop\Tasks\KibritBook\Entities\obj\Debug\net6.0\Entities.dll
 C:\Users\HP\Desktop\Tasks\KibritBook\Entities\obj\Debug\net6.0\ref\Entities.dll
 C:\Users\HP\Desktop\Tasks\KibritBook\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\HP\Desktop\Tasks\KibritBook\Entities\bin\Debug\net6.0\Core.dll
+C:\Users\HP\Desktop\Tasks\KibritBook\Entities\bin\Debug\net6.0\Core.pdb
+C:\Users\HP\Desktop\Tasks\KibritBook\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Entity.Models
 {
-    public class K205User : IEntity
+    public class User : IEntity
     {
         public int Id { get; set; }
         public string Email { get; set; }

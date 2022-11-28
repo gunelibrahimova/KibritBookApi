@@ -10,7 +10,7 @@ namespace Core.Entity.Models
     {
         public int Id { get; set; }
         public int K205UserId { get; set; }
-        public K205User K205User { get; set; }
+        public User K205User { get; set; }
         public int RoleId { get; set; }
         public Role Role { get; set; }
     }
