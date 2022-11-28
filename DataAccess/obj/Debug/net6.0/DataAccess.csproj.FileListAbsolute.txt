@@ -10,3 +10,5 @@ C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.cspr
 C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.dll
 C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\HP\Desktop\Tasks\KibritBook\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
