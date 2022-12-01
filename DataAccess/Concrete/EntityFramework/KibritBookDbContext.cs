@@ -28,3 +28,4 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<User> Users { get; set; }
     }
 }
+

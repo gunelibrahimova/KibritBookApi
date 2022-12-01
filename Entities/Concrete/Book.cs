@@ -29,5 +29,6 @@ namespace Entities.Concrete
         public Genre Genre { get; set; }
         public int LanguageId { get; set; }
         public Language Language { get; set; }
+        public List<BookPicture> BookPicture { get; set; }
     }
 }

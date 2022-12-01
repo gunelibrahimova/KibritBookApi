@@ -1,8 +1,13 @@
 using System.Text;
+using Business.Abstract;
+using Business.Concrete;
 using Core.Entity.Models;
-using Core.Security.Hashing;
+using Core.Security.Hasing;
 using Core.Security.Models;
 using Core.Security.TokenHandler;
+using DataAccess.Abstract;
+using DataAccess.Concrete;
+using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -39,16 +44,24 @@ options.SerializerSettings
 .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IGenreDal, GenreDal>();
+builder.Services.AddScoped<IGenreManager, GenreManager>();
+builder.Services.AddScoped<IAuthorDal, AuthorDal>();
+builder.Services.AddScoped<IAuthorManager, AuthorManager>();
+builder.Services.AddScoped<ILanguageDal, LanguageDal>();
+builder.Services.AddScoped<ILanguageManager, LanguageManager>();
+builder.Services.AddScoped<ICommentDal, CommentDal>();
+builder.Services.AddScoped<ICommentManager, CommentManager>();
 
 
-
-
-
-builder.Services.AddScoped<HashingHandler>();
+builder.Services.AddScoped<HasingHandler>();
 builder.Services.AddScoped<TokenGenerator>();
 builder.Services.AddScoped<JWTConfig>();
 
@@ -65,14 +78,6 @@ builder.Services.AddCors(options =>
 });
 
 
-
-
-
-//builder.Services.AddDefaultIdentity<K205User>().AddRoles<IdentityRole>()
-//    .AddEntityFrameworkStores<ShopDbContext>();
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -82,11 +87,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
 app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.UseCors(MyAllowSpecificOrigins);
+
 
 app.UseAuthentication();
 app.UseAuthorization();
